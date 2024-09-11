@@ -1,0 +1,52 @@
+.hero {
+    background-image: url(https://preview.colorlib.com/theme/passport/images/hero_1.jpg);
+    height: 550px;
+    color: white;
+
+    /* align-items: center; */
+    padding: 50px 50px;
+    text-transform: capitalize;
+}
+
+.hero h1 {
+    width: 40%;
+    font-size: 4rem;
+}
+
+.hero button {
+    background-color: transparent;
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.Destinations {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px;
+
+}
+
+.Destinations img {
+    height: 50%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width : 1000px) {
+    .hero {
+        padding: 50px 100px;
+    }
+}
